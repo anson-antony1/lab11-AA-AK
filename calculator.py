@@ -1,3 +1,7 @@
+# https://github.com/anson-antony1/lab11-AA-AK
+# Partner 1: Anson Antony
+# Partner 2: Amrita Ketireddy
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
