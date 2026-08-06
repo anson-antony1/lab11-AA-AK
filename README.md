@@ -1,8 +1,16 @@
-# How to use this Lab 11 repository template:
-## Steps:
+# Calculator with unit tests (Python)
 
-- In the top right corner, there is a green button that says "Use this template". Click on this.
-- Click "Create in a new repository"
-- Name the new repository lab11-[Partner1 Initials]-[Partner2 Initials]
-    **- Make sure to set this new repository as Public!**
-- Click "Create repository"
+A small calculator module written to practise test-driven development. Pair
+work with Amrita Ketireddy.
+
+`calculator.py` implements one function per operation — add, subtract,
+multiply, divide, logarithm, hypotenuse, and square root. `test_calculator.py`
+covers them with 10 tests that include the failure paths, not just the happy
+ones: division by zero, an invalid logarithm base, and an invalid logarithm
+argument each get their own case.
+
+## Run the tests
+
+```bash
+python -m pytest test_calculator.py
+```
